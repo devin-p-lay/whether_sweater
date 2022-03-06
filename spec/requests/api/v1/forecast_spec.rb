@@ -14,34 +14,34 @@ describe 'forecast endpoint', :vcr do
     expect(weather[:data][:attributes]).to be_a Hash
 
     expect(weather[:data][:attributes]).to have_key(:current_weather)
-    expect(weather[:data][attributes][:current_weather]).to be_a Hash
+    expect(weather[:data][:attributes][:current_weather]).to be_a Hash
 
-    expect(weather[:data][attributes][:current_weather]).to_not have_key(:moonrise)
-    expect(weather[:data][attributes][:current_weather]).to_not have_key(:moonset)
-    expect(weather[:data][attributes][:current_weather]).to_not have_key(:moonphase)
-    expect(weather[:data][attributes][:current_weather]).to_not have_key(:dewpoint)
-    expect(weather[:data][attributes][:current_weather]).to_not have_key(:wind_speed)
+    expect(weather[:data][:attributes][:current_weather]).to_not have_key(:moonrise)
+    expect(weather[:data][:attributes][:current_weather]).to_not have_key(:moonset)
+    expect(weather[:data][:attributes][:current_weather]).to_not have_key(:moonphase)
+    expect(weather[:data][:attributes][:current_weather]).to_not have_key(:dewpoint)
+    expect(weather[:data][:attributes][:current_weather]).to_not have_key(:wind_speed)
 
-    expect(weather[:data][attributes][:current_weather]).to have_key(:datetime)
-    expect(weather[:data][attributes][:current_weather][:datetime]).to be_a String
-    expect(weather[:data][attributes][:current_weather]).to have_key(:sunrise)
-    expect(weather[:data][attributes][:current_weather][:sunrise]).to be_a String
-    expect(weather[:data][attributes][:current_weather]).to have_key(:sunset)
-    expect(weather[:data][attributes][:current_weather][:sunset]).to be_a String
-    expect(weather[:data][attributes][:current_weather]).to have_key(:temperature)
-    expect(weather[:data][attributes][:current_weather][:temperature]).to be_a Float
-    expect(weather[:data][attributes][:current_weather]).to have_key(:feels_like)
-    expect(weather[:data][attributes][:current_weather][:feels_like]).to be_a Float
-    expect(weather[:data][attributes][:current_weather]).to have_key(:humidity)
-    expect(weather[:data][attributes][:current_weather][:humidity]).to be_a Integer
-    expect(weather[:data][attributes][:current_weather]).to have_key(:uvi)
-    expect(weather[:data][attributes][:current_weather][:uvi]).to be_a Float
-    expect(weather[:data][attributes][:current_weather]).to have_key(:visibility)
-    expect(weather[:data][attributes][:current_weather][:visibility]).to be_a Integer
-    expect(weather[:data][attributes][:current_weather]).to have_key(:conditions)
-    expect(weather[:data][attributes][:current_weather][:conditions]).to be_a String
-    expect(weather[:data][attributes][:current_weather]).to have_key(:icon)
-    expect(weather[:data][attributes][:current_weather][:icon]).to be_a String
+    expect(weather[:data][:attributes][:current_weather]).to have_key(:datetime)
+    expect(weather[:data][:attributes][:current_weather][:datetime]).to be_a String
+    expect(weather[:data][:attributes][:current_weather]).to have_key(:sunrise)
+    expect(weather[:data][:attributes][:current_weather][:sunrise]).to be_a String
+    expect(weather[:data][:attributes][:current_weather]).to have_key(:sunset)
+    expect(weather[:data][:attributes][:current_weather][:sunset]).to be_a String
+    expect(weather[:data][:attributes][:current_weather]).to have_key(:temperature)
+    expect(weather[:data][:attributes][:current_weather][:temperature]).to be_a Float
+    expect(weather[:data][:attributes][:current_weather]).to have_key(:feels_like)
+    expect(weather[:data][:attributes][:current_weather][:feels_like]).to be_a Float
+    expect(weather[:data][:attributes][:current_weather]).to have_key(:humidity)
+    expect(weather[:data][:attributes][:current_weather][:humidity]).to be_a Integer
+    expect(weather[:data][:attributes][:current_weather]).to have_key(:uvi)
+    expect(weather[:data][:attributes][:current_weather][:uvi]).to be_a Float
+    expect(weather[:data][:attributes][:current_weather]).to have_key(:visibility)
+    expect(weather[:data][:attributes][:current_weather][:visibility]).to be_a Integer
+    expect(weather[:data][:attributes][:current_weather]).to have_key(:conditions)
+    expect(weather[:data][:attributes][:current_weather][:conditions]).to be_a String
+    expect(weather[:data][:attributes][:current_weather]).to have_key(:icon)
+    expect(weather[:data][:attributes][:current_weather][:icon]).to be_a String
 
     expect(weather[:data][:attributes]).to have_key(:daily_weather)
     expect(weather[:data][:attributes][:daily_weather]).to be_an Array
