@@ -16,6 +16,8 @@
         <li><a href="#framework">Framework</a></li>
         <li><a href="#tools">Tools</a></li>
         <li><a href="#gems">Gems</a></li>
+        <li><a href="#developement_principles">Development Principles</a></li>
+        <li><a href="#contributors">Contributors</a></li>
       </ul>
     </li>
       <li>
