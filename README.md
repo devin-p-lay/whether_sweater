@@ -10,42 +10,36 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#set-up">Set Up</a></li>
+        <li><a href="#gems">Gems</a></li>
+      </ul>
+    </li>
+   
+    <li>
       <a href="#overview">Overview</a>
       <ul>
         <li><a href="#learning-goals-for-project">Learning Goals Achieved</a></li>
         <li><a href="#framework">Framework</a></li>
         <li><a href="#tools">Tools</a></li>
-        <li><a href="#gems">Gems</a></li>
         <li><a href="#developement_principles">Development Principles</a></li>
         <li><a href="#contributors">Contributors</a></li>
       </ul>
     </li>
-      <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#set-up">Set Up</a></li>
-        <li><a href="#use-of-this-repository">Use of this Repository</a>
-          <ul>
-            <li>Frontend Server</li>
-            <li>Backend Server</li>
-          </ul>
-        </li>
-    </li>
-    </ul>
+    
     <li>
-      <a href="#apis">Book Club API</a>
+      <a href="#endpoints">Endpoints</a>
       <details>
         <summary>Available Endpoints</summary>
         <ul>
-          <li><a href="#books-endpoints">Books Endpoints</a></li>
-          <li><a href="#quotes-endpoints">Quotes Endpoints</a></li>
-          <li><a href="#user-endpoints">User Endpoints</a></li>
-          <li><a href="#clubs-endpoints">Clubs Endpoints</a></li>
-          <li><a href="#comments-endpoints">Comments Endpoints</a></li>
+          <li><a href="#forecast-endpoint">Forecast Endpoints</a></li>
+          <li><a href="#background-endpoint">Background Endpoints</a></li>
+          <li><a href="#user-endpoint">User Endpoints</a></li>
+          <li><a href="#roadtrip-endpoint">Roadtrip Endpoints</a></li>
         </ul>
       </details>
     </li>
-    <li><a href="#collaborators">Collaborators</a></li>
   </ol>
 </details>
 
