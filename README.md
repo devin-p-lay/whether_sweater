@@ -10,6 +10,15 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
+      <a href="#overview">Overview</a>
+      <ul>
+        <li><a href="#learning-goals-for-project">Learning Goals Achieved</a></li>
+        <li><a href="#framework">Framework</a></li>
+        <li><a href="#tools">Tools</a></li>
+        <li><a href="#gems">Gems</a></li>
+      </ul>
+    </li>
+      <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#set-up">Set Up</a></li>
@@ -21,15 +30,6 @@
         </li>
     </li>
     </ul>
-    <li>
-      <a href="#project-description">About This Project</a>
-      <ul>
-        <li><a href="#learning-goals-for-project">Learning Goals for Project</a></li>
-        <li><a href="#versions">Versions</a></li>
-        <li><a href="#important-gems">Important Gems</a></li>
-        <li><a href="#database-schema">Database Schema</a></li>
-      </ul>
-    </li>
     <li>
       <a href="#apis">Book Club API</a>
       <details>
