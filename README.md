@@ -142,5 +142,12 @@ Sweather Whether is a backend application that exposes several external API's to
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
+- LinkedIn: [Devin Pile](https://www.linkedin.com/in/devin-pile-162460165/)
+
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+
+## Endpoints 
+
+
