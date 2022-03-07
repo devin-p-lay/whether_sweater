@@ -1,7 +1,7 @@
 class OpenWeatherService
   class << self
     def weather_data(lat, lon)
-      response = conn.get("/data/2.5/onecall") do |req|
+      response = conn.get("/data/2.5/onecall", {}) do |req|
         req.params['lat'] = lat
         req.params['lon'] = lon
         req.params['units'] = 'imperial'
