@@ -1,3 +1,11 @@
+# <div align="center">Sweater Whether</div>
+
+
+#### <div align="center">The backend application for roadtrip planning</div>
+
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 <details close="close">
   <summary>Table of Contents</summary>
   <ol>
@@ -38,9 +46,6 @@
     <li><a href="#collaborators">Collaborators</a></li>
   </ol>
 </details>
-
-
-#### The API that consumes weather status and global tracking, so you know whether or not you need that sweater.
 
 
 ![Screen Shot 2022-03-07 at 3 41 42 AM](https://user-images.githubusercontent.com/87088092/157016014-8103f37c-8e34-4947-9ff8-80d502661a81.png)
