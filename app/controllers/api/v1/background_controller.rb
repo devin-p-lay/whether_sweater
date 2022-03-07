@@ -1,0 +1,10 @@
+class Api::V1::BackgroundController < ApplicationController
+  def index
+    if params[:location]
+      image = UnsplashImageFacade.find_image(params[:location])
+      render json: BackgroundSerializer.format_background(image)
+    else
+      render json: { error: 'bad request' }, status: :bad_request
+    end
+  end
+end
