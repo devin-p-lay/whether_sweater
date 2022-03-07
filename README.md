@@ -2,7 +2,7 @@
 
 
 
-<details open="open">
+<details close="close">
   <summary>Table of Contents</summary>
   <ol>
     <li>
