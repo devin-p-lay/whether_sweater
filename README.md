@@ -56,7 +56,7 @@
 
 ## Getting Started
 
-#### Gems
+#### Gems:
 <p>
   <img src="https://img.shields.io/badge/rspec--rails-b81818.svg?&style=flaste&logo=rubygems&logoColor=white" />
   <img src="https://img.shields.io/badge/pry-b81818.svg?&style=flaste&logo=rubygems&logoColor=white" />   
@@ -67,7 +67,7 @@
   <img src="https://img.shields.io/badge/faraday-b81818.svg?&style=flaste&logo=rubygems&logoColor=white" />
 </p> 
 
-#### Local Setup 
+#### Local Setup:
 
 1. Fork and Clone the repo
 2. Install gem packages: `bundle install`
@@ -98,18 +98,18 @@ Sweather Whether is a backend application that exposes several external API's to
 * Research, select, and consume an API based on your needs as a developer
 
 
-#### Framework
+#### Framework:
 <p>
   <img src="https://img.shields.io/badge/Ruby%20On%20Rails-b81818.svg?&style=flat&logo=rubyonrails&logoColor=white" />
 </p>
 
-#### Languages
+#### Languages:
 <p>
   <img src="https://img.shields.io/badge/Ruby-CC0000.svg?&style=flaste&logo=ruby&logoColor=white" />
   <img src="https://img.shields.io/badge/ActiveRecord-CC0000.svg?&style=flaste&logo=rubyonrails&logoColor=white" />
 </p>
 
-#### Tools
+#### Tools:
 <p>
   <img src="https://img.shields.io/badge/Atom-66595C.svg?&style=flaste&logo=atom&logoColor=white" />  
   <img src="https://img.shields.io/badge/Git-F05032.svg?&style=flaste&logo=git&logoColor=white" />
@@ -118,7 +118,7 @@ Sweather Whether is a backend application that exposes several external API's to
   <img src="https://img.shields.io/badge/CircleCI-FFBC4F.svg?&style=flat&logo=travis&logoColor=white" />
 </p>
 
-#### Development Principles
+#### Development Principles:
 <p>
   <img src="https://img.shields.io/badge/OOP-b81818.svg?&style=flaste&logo=OOP&logoColor=white" />
   <img src="https://img.shields.io/badge/TDD-b87818.svg?&style=flaste&logo=TDD&logoColor=white" />
@@ -126,7 +126,7 @@ Sweather Whether is a backend application that exposes several external API's to
   <img src="https://img.shields.io/badge/REST-33b818.svg?&style=flaste&logo=REST&logoColor=white" />  
 </p>
 
-#### Contributors 
+#### Contributors:
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
