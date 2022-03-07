@@ -49,3 +49,28 @@
   ![Screen Shot 2022-03-07 at 3 41 42 AM](https://user-images.githubusercontent.com/87088092/157016014-8103f37c-8e34-4947-9ff8-80d502661a81.png)
   
 </div>
+
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+
+## Getting Started
+
+
+#### Local Setup 
+
+1. Fork and Clone the repo
+2. Install gem packages: 'bundle install' 
+3. Set up the database: 'rails db:{drop,create,migrate,seed}'
+4. Get API kes from [MapQuest](https://developer.mapquest.com/documentation/), [OpenWeather](https://openweathermap.org/api), and [Unsplash](https://unsplash.com/documentation#creating-a-developer-account)
+5. Enter API keys into your 'application.yml' file 
+```
+map_consumer_key: <enter your key here>
+weather_key: <enter your key here>
+image_key: <enter your key here>
+```
+
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+
