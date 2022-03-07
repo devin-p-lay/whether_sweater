@@ -54,7 +54,7 @@
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 
-## Getting Started
+## <div align="center">Getting Started</div>
 
 #### Gems:
 <p>
@@ -84,7 +84,7 @@ image_key: <enter your key here>
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 
-## Overview 
+## <div align="center">Overview</div>
 
 Sweather Whether is a backend application that exposes several external API's to suppot application for planning roadtrips based on weather conditions. 
 
@@ -147,6 +147,6 @@ Sweather Whether is a backend application that exposes several external API's to
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 
-## Endpoints 
+## <div align="center">Endpoints</div>
 
 
