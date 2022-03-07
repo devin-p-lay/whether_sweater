@@ -18,18 +18,21 @@
     </li>
     <li>
       <a href="#overview">Overview</a>
-      <ul>
-        <li><a href="#learning-goals-for-project">Learning Goals Achieved</a></li>
-        <li><a href="#framework">Framework</a></li>
-        <li><a href="#tools">Tools</a></li>
-        <li><a href="#developement_principles">Development Principles</a></li>
-        <li><a href="#contributors">Contributors</a></li>
-      </ul>
+      <details>
+        <summary>details</summary>
+        <ul>
+          <li><a href="#learning-goals-for-project">Learning Goals Achieved</a></li>
+          <li><a href="#framework">Framework</a></li>
+          <li><a href="#tools">Tools</a></li>
+          <li><a href="#developement_principles">Development Principles</a></li>
+          <li><a href="#contributors">Contributors</a></li>
+        </ul>
+      </details>
     </li>
     <li>
       <a href="#endpoints">Endpoints</a>
       <details>
-        <summary>Available Endpoints</summary>
+        <summary>available endpoints</summary>
         <ul>
           <li><a href="#forecast-endpoint">Forecast Endpoints</a></li>
           <li><a href="#background-endpoint">Background Endpoints</a></li>
