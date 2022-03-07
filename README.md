@@ -42,4 +42,4 @@
 ![Screen Shot 2022-03-07 at 3 41 42 AM](https://user-images.githubusercontent.com/87088092/157016014-8103f37c-8e34-4947-9ff8-80d502661a81.png)
 
 # Sweater Whether 
-The API that consumes weather status and global tracking so you know whether you need that sweater, or not.
+- The API that consumes weather status and global tracking so you know whether or not you need that sweater -
