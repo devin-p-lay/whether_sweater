@@ -16,7 +16,6 @@
         <li><a href="#gems">Gems</a></li>
       </ul>
     </li>
-   
     <li>
       <a href="#overview">Overview</a>
       <ul>
@@ -27,7 +26,6 @@
         <li><a href="#contributors">Contributors</a></li>
       </ul>
     </li>
-    
     <li>
       <a href="#endpoints">Endpoints</a>
       <details>
