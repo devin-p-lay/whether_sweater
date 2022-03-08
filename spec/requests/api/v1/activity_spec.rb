@@ -8,7 +8,7 @@ describe 'activities endpoint' do
 
     activities = JSON.parse(response.body, symbolize_names: true)
 
-    expect(activities).to be a Hash
+    expect(activities).to be_a Hash
     expect(activities).to have_key(:data)
     expect(activities[:data]).to have_key(:id)
     expect(activities[:data]).to have_key(:type)
@@ -20,11 +20,5 @@ describe 'activities endpoint' do
 
     expect(response).to_not be_successful
     expect(response.status).to eq 400
-  end
-
-  it 'return an error if destination does not exist' do
-    get '/api/v1/activities' , params: { destination: 'asdfjkl' }
-
-    expect(response).to_not be_successful
   end
 end

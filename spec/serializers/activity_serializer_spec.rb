@@ -19,12 +19,12 @@ describe 'activity serializer' do
     expect(activities_json[:data][:attributes]).to be_a Hash
     expect(activities_json[:data][:attributes]).to have_key(:destination)
     expect(activities_json[:data][:attributes][:destination]).to be_a String
-    expect(activities_json[:data][:attributes][:destination]).to have_key(:forecast)
-    expect(activities_json[:data][:attributes][:destination][:forecast]).to be_a Hash
-    expect(activities_json[:data][:attributes][:destination][:forecast]).to have_key(:summary)
-    expect(activities_json[:data][:attributes][:destination][:forecast][:summary]).to be_a String
-    expect(activities_json[:data][:attributes][:destination][:forecast]).to have_key(:temperature)
-    expect(activities_json[:data][:attributes][:destination][:forecast][:temperature]).to be_a String
+    expect(activities_json[:data][:attributes]).to have_key(:forecast)
+    expect(activities_json[:data][:attributes][:forecast]).to be_a Hash
+    expect(activities_json[:data][:attributes][:forecast]).to have_key(:summary)
+    expect(activities_json[:data][:attributes][:forecast][:summary]).to be_a String
+    expect(activities_json[:data][:attributes][:forecast]).to have_key(:temperature)
+    expect(activities_json[:data][:attributes][:forecast][:temperature]).to be_a String
     #activities
     expect(activities_json[:data][:attributes]).to have_key(:activities)
     expect(activities_json[:data][:attributes][:activities]).to be_an Array
@@ -39,7 +39,7 @@ describe 'activity serializer' do
     expect(activities_json[:data][:attributes][:activities].first).to have_key(:price)
     expect(activities_json[:data][:attributes][:activities].first[:price]).to be_a Float
   end
-end 
+end
 
 
 
