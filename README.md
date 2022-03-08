@@ -348,3 +348,46 @@ body:
 }
 ```
 </details>
+
+### Retrieve data for planning a roadtrip
+
+<details close="close">
+  <summary>Request</summary>
+  
+```
+POST /api/v1/road_trip
+Content-Type: application/json
+Accept: application/json
+
+body:
+
+{
+  "origin": "Denver,CO",
+  "destination": "Pueblo,CO",
+  "api_key": "jgn983hy48thw9begh98h4539h4"
+}
+```
+  
+</details>
+
+<details close="close">
+  <summary>Response</summary>
+  
+```
+{
+  "data": {
+    "id": null,
+    "type": "roadtrip",
+    "attributes": {
+      "start_city": "Denver, CO",
+      "end_city": "Estes Park, CO",
+      "travel_time": "2 hours, 13 minutes"
+      "weather_at_eta": {
+        "temperature": 59.4,
+        "conditions": "partly cloudy with a chance of meatballs"
+      }
+    }
+  }
+}
+```
+</details>
