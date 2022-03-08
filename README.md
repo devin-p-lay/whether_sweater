@@ -21,7 +21,7 @@
       <details>
         <summary>details</summary>
         <ul>
-          <li><a href="#learning-goals-achieved:">Learning Goals Achieved</a></li>
+          <li><a href="#learning-goals-achieved">Learning Goals Achieved</a></li>
           <li><a href="#framework">Framework</a></li>
           <li><a href="#tools">Tools</a></li>
           <li><a href="#development_principles">Development Principles</a></li>
@@ -89,7 +89,7 @@ image_key: <enter your key here>
 Sweather Whether is a backend application that exposes several external API's to suppot application for planning roadtrips based on weather conditions. 
 
 
-#### Learning Goals Acheived:
+####  Learning Goals Achieved
 
 * Expose an API that aggregates data from multiple external APIs
 * Expose an API that requires an authentication token
