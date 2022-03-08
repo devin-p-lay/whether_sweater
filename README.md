@@ -13,7 +13,7 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#gems">Gems</a></li>
-        <li><a href="#local-setup">Local Setup</a></li>
+        <li><a href="#local-setup">Set Up</a></li>
       </ul>
     </li>
     <li>
@@ -21,10 +21,10 @@
       <details>
         <summary>details</summary>
         <ul>
-          <li><a href="#learning-goals-for-project">Learning Goals Achieved</a></li>
+          <li><a href="#learning-goals-achieved">Learning Goals Achieved</a></li>
           <li><a href="#framework">Framework</a></li>
           <li><a href="#tools">Tools</a></li>
-          <li><a href="#developement_principles">Development Principles</a></li>
+          <li><a href="#development-principles">Development Principles</a></li>
           <li><a href="#contributors">Contributors</a></li>
         </ul>
       </details>
@@ -34,8 +34,8 @@
       <details>
         <summary>available endpoints</summary>
         <ul>
-          <li><a href="#forecast-endpoint">Forecast Endpoints</a></li>
-          <li><a href="#background-endpoint">Background Endpoints</a></li>
+          <li><a href="#Retrieve-weather-for-a-city">Forecast Endpoints</a></li>
+          <li><a href="#Retrieve-background-image-for-a-city">Background Endpoints</a></li>
           <li><a href="#user-endpoint">User Endpoints</a></li>
           <li><a href="#roadtrip-endpoint">Roadtrip Endpoints</a></li>
         </ul>
@@ -89,7 +89,7 @@ image_key: <enter your key here>
 Sweather Whether is a backend application that exposes several external API's to suppot application for planning roadtrips based on weather conditions. 
 
 
-#### Learning Goals Acheived:
+####  Learning Goals Achieved
 
 * Expose an API that aggregates data from multiple external APIs
 * Expose an API that requires an authentication token
@@ -150,3 +150,84 @@ Sweather Whether is a backend application that exposes several external API's to
 ## <div align="center">Endpoints</div>
 
 
+###  Retrieve weather for a city
+
+<details close="close">
+  <summary>Request</summary>
+
+    GET /api/v1/forecast?location=denver,co
+  
+</details>
+
+<details close="close">
+  <summary>Response</summary>
+  
+    {
+      "data": {
+        "id": null,
+        "type": "forecast",
+        "attributes": {
+          "current_weather": {
+            "datetime": "2020-09-30 13:27:03 -0600",
+            "temperature": 79.4,
+            etc
+          },
+          "daily_weather": [
+            {
+              "date": "2020-10-01",
+              "sunrise": "2020-10-01 06:10:43 -0600",
+              etc
+            },
+            {...} etc
+          ],
+          "hourly_weather": [
+            {
+              "time": "14:00:00",
+              "conditions": "cloudy with a chance of meatballs",
+              etc
+            },
+            {...} etc
+          ]
+        }
+      }
+    }
+  
+ </details>
+ 
+ 
+###  Retrieve background image for a city
+
+<details close="close">
+  <summary>Request</summary>
+
+    GET /api/v1/backgrounds?location=denver,co
+  
+</details>
+
+<details close="close">
+  <summary>Response</summary>
+  
+```
+status: 200
+body:
+
+{
+  "data": {
+    "type": "image",
+    "id": null,
+    "attributes": {
+      "image": {
+        "location": "denver,co",
+        "image_url": "https://pixabay.com/get/54e6d4444f50a814f1dc8460962930761c38d6ed534c704c7c2878dd954dc451_640.jpg",
+        "credit": {
+          "source": "pixabay.com",
+          "author": "quinntheislander",
+          "logo": "https://pixabay.com/static/img/logo_square.png"
+        }
+      }
+    }
+  }
+}
+```
+  
+</details>
