@@ -156,7 +156,7 @@ Sweather Whether is a backend application that exposes several external API's to
 <details close="close">
   <summary>Request</summary>
 
-    `GET /api/v1/forecast?location=denver,co`
+    GET /api/v1/forecast?location=denver,co
   
 </details>
 
@@ -201,7 +201,7 @@ Sweather Whether is a backend application that exposes several external API's to
 <details close="close">
   <summary>Request</summary>
 
-    `GET /api/v1/backgrounds?location=denver,co`
+    GET /api/v1/backgrounds?location=denver,co
   
 </details>
 
