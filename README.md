@@ -189,13 +189,13 @@ Sweather Whether is a backend application that exposes several external API's to
   }
 }
 ```
-#### - Retrieve background image for a city -
+### - Retrieve background image for a city -
 
-*Request*
+*Request:*
 
 `GET /api/v1/backgrounds?location=denver,co`
 
-*Response*
+*Response:*
 ```
 {
   "data": {
