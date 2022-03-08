@@ -151,16 +151,17 @@ Sweather Whether is a backend application that exposes several external API's to
 ## <div align="center">Endpoints</div>
 
 
-### - Retrieve weather for a city -
+### - Retrieve weather for a city
 
 <details close="close">
-  <summary>Request/Response</summary>
-  
-    *Request:*
+  <summary>Request</summary>
 
     `GET /api/v1/forecast?location=denver,co`
+  
+</details>
 
-    *Response:*
+<details close="close">
+  <summary>Response</summary>
   
     ```
     {
