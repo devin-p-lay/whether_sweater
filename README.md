@@ -207,7 +207,8 @@ Sweather Whether is a backend application that exposes several external API's to
 
 <details close="close">
   <summary>Response</summary>
-
+  
+```
 status: 200
 body:
 
@@ -228,5 +229,6 @@ body:
     }
   }
 }
+```
   
 </details>
