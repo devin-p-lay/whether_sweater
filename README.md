@@ -232,7 +232,7 @@ body:
   
 </details>
 
-#### Retrieve weather appropriate activities for destination
+### Retrieve weather appropriate activities for destination
 
 <details close="close">
   <summary>Request</summary>
@@ -244,6 +244,7 @@ body:
 <details close="close">
   <summary>Response</summary>
   
+```
 {
   "data": {
     "id": "null",
@@ -267,5 +268,5 @@ body:
       }
     }
   }
-  
+```
 </details>
