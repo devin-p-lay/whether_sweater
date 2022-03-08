@@ -2,7 +2,7 @@ require 'rails_helper'
 
 describe 'activities endpoint' do
   it 'retrieves activities for a given destination' do
-    get '/api/v1/activitivites' , params: { destination: 'denver,co' }
+    get '/api/v1/activities' , params: { destination: 'denver,co' }
 
     expect(response).to be_successful
 
@@ -23,8 +23,8 @@ describe 'activities endpoint' do
   end
 
   it 'return an error if destination does not exist' do
-    get '/api/v1/activitivites' , params: { destination: 'asdfjkl' }
+    get '/api/v1/activities' , params: { destination: 'asdfjkl' }
 
     expect(response).to_not be_successful
   end
-end 
+end
