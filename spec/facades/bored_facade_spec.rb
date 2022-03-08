@@ -2,7 +2,7 @@ require 'rails_helper'
 
 describe 'bored facade' do
   it 'returns 2 activity objects in array for temp < 50' do
-    response = BoredFacade.get_two_activities(20)
+    response = BoredFacade.get_two_activities(35)
     expect(response).to be_an Array
     expect(response.count).to eq 2
     expect(response.first).to be_an Activity
@@ -12,6 +12,7 @@ describe 'bored facade' do
   end
 
   it 'returns 2 activity objects in array for temp 50-59' do
+    response = BoredFacade.get_two_activities(55)
     expect(response).to be_an Array
     expect(response.count).to eq 2
     expect(response.first).to be_an Activity
@@ -21,6 +22,7 @@ describe 'bored facade' do
   end
 
   it 'returns 2 activity objects in array for temp >= 60' do
+    response = BoredFacade.get_two_activities(75)
     expect(response).to be_an Array
     expect(response.count).to eq 2
     expect(response.first).to be_an Activity
@@ -28,4 +30,4 @@ describe 'bored facade' do
     expect(response.last).to be_an Activity
     expect(response.last.type).to eq 'relaxation'
   end
-end 
+end
