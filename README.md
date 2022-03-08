@@ -30,16 +30,20 @@
       </details>
     </li>
     <li>
-      <a href="#endpoints">Endpoints</a>
+      <a href="#Endpoints">Endpoints</a>
       <details>
         <summary>available endpoints</summary>
         <ul>
           <li><a href="#Retrieve-weather-for-a-city">Forecast Endpoints</a></li>
           <li><a href="#Retrieve-background-image-for-a-city">Background Endpoints</a></li>
-          <li><a href="#user-endpoint">User Endpoints</a></li>
-          <li><a href="#roadtrip-endpoint">Roadtrip Endpoints</a></li>
+          <li><a href="#Retrieve-weather-appropriate-activities-for-destination">Activity Endpoints</a></li>
+          <li><a href="#Register-a-new-user">User Endpoints</a></li>
+          <li><a href="#Retrieve-data-for-planning-a-roadtrip">Roadtrip Endpoints</a></li>
         </ul>
       </details>
+    </li>
+    <li>
+      <a href="#Reflection">Reflection</a>
     </li>
   </ol>
 </details>
