@@ -208,6 +208,9 @@ Sweather Whether is a backend application that exposes several external API's to
 <details close="close">
   <summary>Response</summary>
 
+status: 200
+body:
+
 {
   "data": {
     "type": "image",
@@ -218,7 +221,8 @@ Sweather Whether is a backend application that exposes several external API's to
         "image_url": "https://pixabay.com/get/54e6d4444f50a814f1dc8460962930761c38d6ed534c704c7c2878dd954dc451_640.jpg",
         "credit": {
           "source": "pixabay.com",
-          "author": "quinntheislander"
+          "author": "quinntheislander",
+          "logo": "https://pixabay.com/static/img/logo_square.png"
         }
       }
     }
