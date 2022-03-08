@@ -35,7 +35,7 @@
         <summary>available endpoints</summary>
         <ul>
           <li><a href="#forecast-endpoint">Forecast Endpoints</a></li>
-          <li><a href="#background-endpoint">Background Endpoints</a></li>
+          <li><a href="#Retrieve-background-image-for-a-city">Background Endpoints</a></li>
           <li><a href="#user-endpoint">User Endpoints</a></li>
           <li><a href="#roadtrip-endpoint">Roadtrip Endpoints</a></li>
         </ul>
