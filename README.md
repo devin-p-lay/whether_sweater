@@ -21,10 +21,10 @@
       <details>
         <summary>details</summary>
         <ul>
-          <li><a href="#learning-goals-for-project">Learning Goals Achieved</a></li>
+          <li><a href="#learning-goals-achieved">Learning Goals Achieved</a></li>
           <li><a href="#framework">Framework</a></li>
           <li><a href="#tools">Tools</a></li>
-          <li><a href="#developement_principles">Development Principles</a></li>
+          <li><a href="#development_principles">Development Principles</a></li>
           <li><a href="#contributors">Contributors</a></li>
         </ul>
       </details>
@@ -34,7 +34,7 @@
       <details>
         <summary>available endpoints</summary>
         <ul>
-          <li><a href="#forecast-endpoint">Forecast Endpoints</a></li>
+          <li><a href="#Retrieve-weather-for-a-city">Forecast Endpoints</a></li>
           <li><a href="#Retrieve-background-image-for-a-city">Background Endpoints</a></li>
           <li><a href="#user-endpoint">User Endpoints</a></li>
           <li><a href="#roadtrip-endpoint">Roadtrip Endpoints</a></li>
