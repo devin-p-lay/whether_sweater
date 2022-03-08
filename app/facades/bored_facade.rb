@@ -3,7 +3,7 @@ class BoredFacade
     def get_two_activities(temp)
       activity1_data = if temp >= 60
                          BoredService.activity_data('recreational')
-                       elsif temp <= 50 && temp < 60
+                       elsif temp >= 50 && temp < 60
                          BoredService.activity_data('busywork')
                        else
                          BoredService.activity_data('cooking')
