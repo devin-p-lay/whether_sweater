@@ -151,7 +151,7 @@ Sweather Whether is a backend application that exposes several external API's to
 ## <div align="center">Endpoints</div>
 
 
-### - Retrieve weather for a city
+### * Retrieve weather for a city
 
 <details close="close">
   <summary>Request</summary>
@@ -197,13 +197,18 @@ Sweather Whether is a backend application that exposes several external API's to
  </details>
  
  
-### - Retrieve background image for a city -
+### * Retrieve background image for a city
 
-*Request:*
+<details close="close">
+  <summary>Request</summary>
 
-`GET /api/v1/backgrounds?location=denver,co`
+    `GET /api/v1/backgrounds?location=denver,co`
+  
+</details>
 
-*Response:*
+<details close="close">
+  <summary>Response</summary>
+
 ```
 {
   "data": {
@@ -222,3 +227,4 @@ Sweather Whether is a backend application that exposes several external API's to
   }
 }
 ```
+</details>
