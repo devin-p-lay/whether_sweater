@@ -12,8 +12,8 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#set-up">Set Up</a></li>
         <li><a href="#gems">Gems</a></li>
+        <li><a href="#local-setup">Local SetUp</a></li>
       </ul>
     </li>
     <li>
@@ -21,7 +21,7 @@
       <details>
         <summary>details</summary>
         <ul>
-          <li><a href="#learning-goals-achieved">Learning Goals Achieved</a></li>
+          <li><a href="#learning-goals-achieved:">Learning Goals Achieved</a></li>
           <li><a href="#framework">Framework</a></li>
           <li><a href="#tools">Tools</a></li>
           <li><a href="#development_principles">Development Principles</a></li>
