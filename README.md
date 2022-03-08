@@ -310,3 +310,41 @@ body:
 
 ```
 </details>
+
+### Log in an existing user
+
+<details close="close">
+  <summary>Request</summary>
+  
+```
+POST /api/v1/sessions
+Content-Type: application/json
+Accept: application/json
+
+{
+  "email": "whatever@example.com",
+  "password": "password"
+}
+```
+  
+</details>
+
+<details close="close">
+  <summary>Response</summary>
+  
+```
+status: 200
+body:
+
+{
+  "data": {
+    "type": "users",
+    "id": "1",
+    "attributes": {
+      "email": "whatever@example.com",
+      "api_key": "jgn983hy48thw9begh98h4539h4"
+    }
+  }
+}
+```
+</details>
