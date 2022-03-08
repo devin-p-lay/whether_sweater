@@ -72,8 +72,8 @@
 1. Fork and Clone the repo
 2. Install gem packages: `bundle install`
 3. Set up the database: `rails db:{drop,create,migrate,seed}`
-4. Get API kes from [MapQuest](https://developer.mapquest.com/documentation/), [OpenWeather](https://openweathermap.org/api), and [Unsplash](https://unsplash.com/documentation#creating-a-developer-account)
-5. Run `figaro install` then enter API keys into your 'application.yml' file 
+4. Get API keys from [MapQuest](https://developer.mapquest.com/documentation/), [OpenWeather](https://openweathermap.org/api), and [Unsplash](https://unsplash.com/documentation#creating-a-developer-account)
+5. Run `figaro install` then enter API keys into your `application.yml` file 
 ```
 map_consumer_key: <enter your key here>
 weather_key: <enter your key here>
@@ -268,5 +268,45 @@ body:
       }
     }
   }
+```
+</details>
+
+### Register a new user
+
+<details close="close">
+  <summary>Request</summary>
+  
+```
+  POST /api/v1/users
+  Content-Type: application/json
+  Accept: application/json
+
+{
+  "email": "whatever@example.com",
+  "password": "password",
+  "password_confirmation": "password"
+}
+```
+  
+</details>
+
+<details close="close">
+  <summary>Response</summary>
+  
+```
+status: 201
+body:
+
+{
+  "data": {
+    "type": "users",
+    "id": "1",
+    "attributes": {
+      "email": "whatever@example.com",
+      "api_key": "jgn983hy48thw9begh98h4539h4"
+    }
+  }
+}
+
 ```
 </details>
