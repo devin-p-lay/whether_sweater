@@ -71,7 +71,7 @@
 *Resource links:*
 [rspec-rails](https://github.com/rspec/rspec-rails) | [pry]() | [simplecov](https://github.com/simplecov-ruby/simplecov) | [bcrypt]() | [figaro](https://medium.com/@MinimalGhost/the-figaro-gem-an-easier-way-to-securely-configure-rails-applications-c6f963b7e993) | [faraday](https://github.com/lostisland/faraday)
 
-#### Local Setup:
+## Local Setup:
 
 1. Fork and Clone the repo
 2. Install gem packages: `bundle install`
