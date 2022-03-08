@@ -37,7 +37,6 @@ describe 'activity serializer' do
     expect(activities_json[:data][:attributes][:activities].first).to have_key(:participants)
     expect(activities_json[:data][:attributes][:activities].first[:participants]).to be_an Integer
     expect(activities_json[:data][:attributes][:activities].first).to have_key(:price)
-    expect(activities_json[:data][:attributes][:activities].first[:price]).to be_a Float
   end
 end
 
