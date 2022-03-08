@@ -58,17 +58,6 @@
 
 #### Gems:
 
-<details close="close">
-  <summary>resource links</summary>
-    - [rspec-rails](https://github.com/rspec/rspec-rails)
-    - [pry]()
-    - [simplecov](https://github.com/simplecov-ruby/simplecov)
-    - [bcrypt]()
-    - [figaro](https://medium.com/@MinimalGhost/the-figaro-gem-an-easier-way-to-securely-configure-rails-applications-c6f963b7e993)
-    - [faraday](https://github.com/lostisland/faraday)
-  
-  </details>
-
 <p>
   <img src="https://img.shields.io/badge/rspec--rails-b81818.svg?&style=flaste&logo=rubygems&logoColor=white" /> 
   <img src="https://img.shields.io/badge/pry-b81818.svg?&style=flaste&logo=rubygems&logoColor=white" />   
@@ -78,6 +67,20 @@
   <img src="https://img.shields.io/badge/figaro-b81818.svg?&style=flaste&logo=rubygems&logoColor=white" />  
   <img src="https://img.shields.io/badge/faraday-b81818.svg?&style=flaste&logo=rubygems&logoColor=white" />
 </p> 
+
+<details close="close">
+  <summary>resource links</summary>
+  <p>
+    [rspec-rails](https://github.com/rspec/rspec-rails)
+    [pry]()
+    [simplecov](https://github.com/simplecov-ruby/simplecov)
+    [bcrypt]()
+    [figaro](https://medium.com/@MinimalGhost/the-figaro-gem-an-easier-way-to-securely-configure-rails-applications-c6f963b7e993)
+    [faraday](https://github.com/lostisland/faraday)
+  </p>
+  
+  </details>
+
 
 #### Local Setup:
 
