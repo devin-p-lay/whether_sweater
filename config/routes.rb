@@ -4,6 +4,7 @@ Rails.application.routes.draw do
       resources :forecast, only: :index
       resources :background, only: :index
       resources :activities, only: :index
+      resources :users, only: :create
     end
   end
 end
