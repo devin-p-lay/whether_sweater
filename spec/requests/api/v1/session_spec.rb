@@ -2,14 +2,14 @@ require 'rails_helper'
 
 describe 'session endpoint' do
   it 'creates a session' do
-    user1 = User.create(email: 'test@rspec.com', password_digest: '$2a$06$Ng7XeOmgh2bSSR8slkmEgYs3tB2idsJKkess34a', access_token: '489s94523a2')
+    user1 = User.create(email: 'test@rspec.com', password: 'password', password_confirmation: 'password')
 
-    body = {
-      'email': 'test@rspec.com',
-      'password': 'password'
-    }
+    login = {
+              'email': 'test@rspec.com',
+              'password': 'password'
+            }
 
-    post '/api/v1/sessions', params: body
+    post '/api/v1/sessions', params: login
 
     expect(response).to be_successful
     expect(response.status).to eq 200
@@ -34,7 +34,7 @@ describe 'session endpoint' do
 
     error = JSON.parse(response.body, symbolize_names: true)
 
-    expect(error[:error]).to eq('Credentials are incorrect')
+    expect(error[:error]).to eq("You must've entered the wrong information")
   end
-end 
+end
 
