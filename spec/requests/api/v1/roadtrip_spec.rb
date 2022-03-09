@@ -37,7 +37,7 @@ describe 'roadtrip endpoint' do
     expect(roadtrip).to be_a Hash
     expect(roadtrip).to have_key(:data)
     expect(roadtrip[:data]).to have_key(:attributes)
-    expect(roadtrip[:data][:attributes][:travel_time]).to eq('impossible route')
+    expect(roadtrip[:data][:attributes][:travel_time]).to eq('Impossible Route')
   end
 
   it 'returns an error if missing a location' do
