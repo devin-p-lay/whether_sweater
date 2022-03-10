@@ -2,7 +2,7 @@ require 'rails_helper'
 
 describe 'background endpoint' do
   it 'retrieves background image for a location' do
-    get '/api/v1/background', params: { location: 'denver,co' }
+    get '/api/v1/backgrounds', params: { location: 'denver,co' }
 
     expect(response).to be_successful
 
@@ -18,7 +18,7 @@ describe 'background endpoint' do
   end
 
   it 'renders a 400 if no location given' do
-    get '/api/v1/background'
+    get '/api/v1/backgrounds'
 
     expect(response).to_not be_successful
     expect(response.status).to eq(400)

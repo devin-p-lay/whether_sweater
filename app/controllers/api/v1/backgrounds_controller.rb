@@ -1,4 +1,4 @@
-class Api::V1::BackgroundController < ApplicationController
+class Api::V1::BackgroundsController < ApplicationController
   def index
     if params[:location]
       image = UnsplashImageFacade.find_image(params[:location])

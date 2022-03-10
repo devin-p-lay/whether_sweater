@@ -5,5 +5,10 @@ class MapQuestFacade
       result = data[:results].first[:locations].first[:latLng]
       Location.new(result)
     end
+
+    def get_route(from, to)
+      data = MapQuestService.get_route(from, to)
+      data[:route][:formattedTime]
+    end
   end
-end 
+end
