@@ -207,8 +207,10 @@ Sweather Whether is a backend application that exposes several external API's to
 
 <details close="close">
   <summary>Request</summary>
-
+  
+```json
     GET /api/v1/backgrounds?location=denver,co
+```
   
 </details>
 
