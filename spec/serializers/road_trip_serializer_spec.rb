@@ -4,7 +4,7 @@ describe 'roadtrip serializer' do
   it 'serializes roadtrip info to json' do
     coordinates = MapQuestFacade.get_location('chicago, il')
     arrival_weather = OpenWeatherFacade.get_future_weather(coordinates, '14:24:27')
-    roadtrip_json = JSON.parse(RoadtripSerializer.new('denver,co', 'chicago,il', '14:24:27', arrival_weather).to_json, symbolize_names: true)
+    roadtrip_json = JSON.parse(RoadTripSerializer.new('denver,co', 'chicago,il', '14:24:27', arrival_weather).to_json, symbolize_names: true)
 
     expect(roadtrip_json).to be_a Hash
     expect(roadtrip_json).to have_key(:data)
@@ -25,7 +25,7 @@ describe 'roadtrip serializer' do
   end
 
   it 'serializes roadtrip with impossible route' do
-    roadtrip_json = JSON.parse(RoadtripSerializer.no_route('denver,co', 'honolulu,hi').to_json, symbolize_names: true)
+    roadtrip_json = JSON.parse(RoadTripSerializer.no_route('denver,co', 'honolulu,hi').to_json, symbolize_names: true)
 
     expect(roadtrip_json).to be_a Hash
     expect(roadtrip_json).to have_key(:data)

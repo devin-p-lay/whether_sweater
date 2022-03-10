@@ -9,7 +9,7 @@ describe 'roadtrip endpoint' do
       'api_key': user.access_token
     }
 
-    post '/api/v1/roadtrip', params: body
+    post '/api/v1/road_trip', params: body
     expect(response).to be_successful
 
     roadtrip = JSON.parse(response.body, symbolize_names: true)
@@ -29,7 +29,7 @@ describe 'roadtrip endpoint' do
       'api_key': user.access_token
     }
 
-    post '/api/v1/roadtrip', params: body
+    post '/api/v1/road_trip', params: body
     expect(response).to be_successful
 
     roadtrip = JSON.parse(response.body, symbolize_names: true)
@@ -47,7 +47,7 @@ describe 'roadtrip endpoint' do
       'api_key': user.access_token
     }
 
-    post '/api/v1/roadtrip', params: body
+    post '/api/v1/road_trip', params: body
     expect(response).to_not be_successful
     expect(response.status).to eq 400
   end

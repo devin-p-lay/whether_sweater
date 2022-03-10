@@ -1,4 +1,4 @@
-class Api::V1::RoadtripController < ApplicationController
+class Api::V1::RoadTripController < ApplicationController
   before_action :require_valid_key
   before_action :require_origin_and_destination
 
@@ -6,9 +6,9 @@ class Api::V1::RoadtripController < ApplicationController
     if roadtrip_time
       coordinates = MapQuestFacade.get_location(destination)
       arrival_weather = OpenWeatherFacade.get_future_weather(coordinates, roadtrip_time)
-      render json: RoadtripSerializer.new(origin, destination, roadtrip_time, arrival_weather), status: 200
+      render json: RoadTripSerializer.new(origin, destination, roadtrip_time, arrival_weather), status: 200
     else
-      render json: RoadtripSerializer.no_route(origin, destination), status: 200
+      render json: RoadTripSerializer.no_route(origin, destination), status: 200
     end
   end
 

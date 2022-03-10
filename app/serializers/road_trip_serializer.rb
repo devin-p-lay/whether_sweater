@@ -1,4 +1,4 @@
-class RoadtripSerializer
+class RoadTripSerializer
   def self.new(origin, destination, trip_duration, arrival_weather)
     {
       "data": {
