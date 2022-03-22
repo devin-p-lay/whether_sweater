@@ -405,3 +405,6 @@ body:
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 
+## <div align="center">Reflection</div>
+
+  I am really proud of what I was able to accomplish from doing this project. This was my first solo project in consuming and exposing APIs. My biggest takeaway (outside of developing sick READMEs) was from combining multiple external APIs to create my own custom methods. By combining everything that I have learned up to this point, all together in the same project, this project is very indicative of my abililities. I do plan to make some refactors like moving some code logic from the controller into the facade and possibly implement serializer gem; I 'handrolled' my serializer for learning purposes.
